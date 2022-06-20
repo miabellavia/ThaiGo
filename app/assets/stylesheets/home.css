@@ -1,11 +1,111 @@
 body {
-  background-color: #E5E5E5;
+  background-color: #CAC9C3;
+  margin: auto;
+  text-align: center;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
 #banner {
   background-image: url('background1.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+
 }
 
 #main_header {
   color: white;
+  margin: 0;
+  padding-top: 80px;
+}
+
+#cta_banner {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  padding-top: 80px;
+  padding-bottom: 48px;
+}
+
+#cta {
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.card {
+  background-color: #566946;
+  transition-duration: 1s;
+}
+
+#card1, #card3 {
+  height: 280px;
+  width: 180px;
+  margin-top: 50px;
+}
+
+#card2 {
+  height: 380px;
+  width: 260px;
+}
+
+.card:hover {
+  background-color: #89B169;
+}
+
+h3 {
+  color: white;
+}
+
+#info_section {
+  padding-bottom: 96px;
+}
+
+#info1 {
+  padding-bottom: 200px;
+}
+
+#info1 {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#info2 {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: auto;
+  flex-direction: row;
+}
+
+#image1 {
+  height: 300px;
+  width: 420px;
+  background-image: url(tribe.jpg);
+}
+
+#image2 {
+  height: 300px;
+  width: 448px;
+  background-image: url(safari.jpeg);
+}
+
+#image1, #image2 {
+  background-size: cover;
+}
+
+.para {
+  width: 360px;
+  text-align: left;
+}
+
+#footer {
+  width: 100%;
+  height: 180px;
+  background-color: rgba(137, 177, 105, 0.4);
 }
