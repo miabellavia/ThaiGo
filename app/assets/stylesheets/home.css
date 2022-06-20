@@ -1,0 +1,11 @@
+body {
+  background-color: #E5E5E5;
+}
+
+#banner {
+  background-image: url('background1.jpg');
+}
+
+#main_header {
+  color: white;
+}
