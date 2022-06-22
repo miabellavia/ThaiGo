@@ -39,25 +39,90 @@ h1 {
 .card {
   background-color: #566946;
   transition-duration: 1s;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
 }
 
 #card1, #card3 {
   height: 280px;
   width: 180px;
   margin-top: 50px;
+
 }
 
 #card2 {
   height: 380px;
-  width: 260px;
+  width: 266px;
+
 }
+
+a {
+  color: #89B169;
+  text-decoration: none;
+  background-color: #CAC9C3;
+  padding: 6px 8px;
+  width: 104px;
+  margin-left: 29px;
+  border-radius: 24px;
+  transition-duration: 0.3s;
+}
+
+#card2 a {
+  margin-left: 70px;
+}
+
+a:hover {
+  background-color: #566946;
+  color: #CAC9C3;
+}
+
 
 .card:hover {
   background-color: #89B169;
+  transform: translateY(-24px);
+}
+
+.card:hover h4 {
+  color: black;
+}
+
+#list_div1, #list_div2, #list_div3 {
+  background-color: #CAC9C3;
+  width: 140px;
+  margin-left: 20px;
+  border-radius: 12px;
+
+}
+
+#list_div2 {
+  width: 223px;
+
+}
+
+.list {
+  font-family: Inter;
+  text-align: left;
+  color: black;
+  font-size: 10px;
+  list-style: none;
+  line-height: 260%;
+  padding-left: 12px;
+}
+
+ul li:before {
+  content: '✓';
+}
+
+#main_list {
+  font-size: 12px;
 }
 
 h4 {
-  color: white;
+  color: #CAC9C3;
+  transition-duration: 0.3s;
 }
 
 #info_section {
