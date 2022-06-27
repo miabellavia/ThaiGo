@@ -5,11 +5,12 @@ body {
   font-family: 'Hammersmith One', sans-serif;
 }
 
-#banner {
-  background-image: url('background1.jpg');
+
+img {
   background-size: cover;
   width: 100%;
-  height: 1000px;
+  display: none;
+  /* height: 1000px; */
 
 }
 
