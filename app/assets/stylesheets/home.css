@@ -6,11 +6,11 @@ body {
 }
 
 
-img {
+#banner {
+  background-image: url('background1.jpg');
   background-size: cover;
   width: 100%;
-  display: none;
-  /* height: 1000px; */
+  height: 1000px;
 
 }
 
